@@ -67,7 +67,7 @@ Stores:
 - Knowledge
 
 - Evaluations
-
+![Architecture Diagram](architecture.jpg)
 ## 🔧 Tools
 ### SearchTool
 
