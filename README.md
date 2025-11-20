@@ -7,7 +7,7 @@
 ## 🚀 Overview
 
 The AI Study Assistant Agent is a multi-agent learning system designed to help students learn faster and more effectively. It automatically finds resources, generates study plans, answers questions, evaluates responses, and stores long-term memory.
-
+study agent.jpg
 This project is built entirely inside a Kaggle Notebook with a clean architecture and no external API keys.
 
 ## 🧠 Motivation
