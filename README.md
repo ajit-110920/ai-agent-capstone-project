@@ -4,13 +4,13 @@
 **Track:** Concierge Agents
 **Author:** Ajit Bhandekar
 
-### 🚀 Overview
+## 🚀 Overview
 
 The AI Study Assistant Agent is a multi-agent learning system designed to help students learn faster and more effectively. It automatically finds resources, generates study plans, answers questions, evaluates responses, and stores long-term memory.
 
 This project is built entirely inside a Kaggle Notebook with a clean architecture and no external API keys.
 
-### 🧠 Motivation
+## 🧠 Motivation
 
 - Learning is often inefficient because students must:
 
@@ -26,21 +26,21 @@ This project is built entirely inside a Kaggle Notebook with a clean architectur
 
 This agent automates all of that, providing a unified personal learning environment.
 
-### 🏗 Architecture
+## 🏗 Architecture
 
 The system uses a multi-agent architecture:
 
-1. ResourceFinder Agent
+### 1. ResourceFinder Agent
 
 - Finds learning materials using a safe, offline-friendly search tool.
 
-2. StudyPlanner Agent
+### 2. StudyPlanner Agent
 
 - Generates structured study plans with multiple sessions.
 
-3. QnA Agent
+### 3. QnA Agent
 
-Answers conceptual, mathematical, and coding questions using:
+- Answers conceptual, mathematical, and coding questions using:
 
 - SearchTool
 
@@ -48,15 +48,15 @@ Answers conceptual, mathematical, and coding questions using:
 
 - CodeExecTool
 
-4. Evaluator Agent
+### 4. Evaluator Agent
 
 - Scores answers using a heuristic scoring model.
 
-5. Coordinator Agent
+### 5. Coordinator Agent
 
 - Orchestrates the full learning pipeline.
 
-Session Memory
+### Session Memory
 
 Stores:
 
@@ -68,26 +68,26 @@ Stores:
 
 - Evaluations
 
-### 🔧 Tools
-SearchTool
+## 🔧 Tools
+### SearchTool
 
 - Fast local knowledge base
 
-Optional Wikipedia fallback (3-second timeout)
+### Optional Wikipedia fallback (3-second timeout)
 
 - Always returns results
 
-CalculatorTool
+### CalculatorTool
 
 - Safe arithmetic evaluator
 
 - Extracts math expressions from natural language
 
-CodeExecTool
+### CodeExecTool
 
 - Restricted sandbox execution (safe on Kaggle)
 
-### 📦 Folder / Code Structure
+## 📦 Folder / Code Structure
 
 Inside the Kaggle Notebook:
 
@@ -100,7 +100,7 @@ Cell 10: Build agent system
 Cell 11: Demo  
 Cell 12: Memory summary  
 
-### ▶️ Usage
+## ▶️ Usage
 
 Example run:
 
@@ -110,8 +110,7 @@ demo = agents["coordinator"].run_full(
 )
 demo
 
-
-Output includes:
+**Output includes:**
 
 - Study plan
 
@@ -123,7 +122,7 @@ Output includes:
 
 - Memory summary
 
-###🏆 Capstone Requirements Satisfied
+## 🏆 Capstone Requirements Satisfied
 
 ✔ Multi-Agent System
 
@@ -141,7 +140,7 @@ Output includes:
 
 ✔ No deployment required
 
-### 📈 Future Enhancements
+## 📈 Future Enhancements
 
 - LLM-based evaluator
 
