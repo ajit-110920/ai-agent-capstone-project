@@ -1,93 +1,93 @@
-AI Study Assistant Agent
+# **AI Study Assistant Agent**
 
-Google AI Agents Intensive — Capstone Project
-Track: Concierge Agents
-Author: Your Name
+**Google AI Agents Intensive — Capstone Project**
+**Track:** Concierge Agents
+**Author:** Ajit Bhandekar
 
-🚀 Overview
+### 🚀 Overview
 
 The AI Study Assistant Agent is a multi-agent learning system designed to help students learn faster and more effectively. It automatically finds resources, generates study plans, answers questions, evaluates responses, and stores long-term memory.
 
 This project is built entirely inside a Kaggle Notebook with a clean architecture and no external API keys.
 
-🧠 Motivation
+### 🧠 Motivation
 
-Learning is often inefficient because students must:
+- Learning is often inefficient because students must:
 
-Search scattered resources
+- Search scattered resources
 
-Plan their sessions manually
+- Plan their sessions manually
 
-Validate answers
+- Validate answers
 
-Keep track of what they learned
+- Keep track of what they learned
 
-Switch between many tools
+- Switch between many tools
 
 This agent automates all of that, providing a unified personal learning environment.
 
-🏗 Architecture
+### 🏗 Architecture
 
 The system uses a multi-agent architecture:
 
 1. ResourceFinder Agent
 
-Finds learning materials using a safe, offline-friendly search tool.
+- Finds learning materials using a safe, offline-friendly search tool.
 
 2. StudyPlanner Agent
 
-Generates structured study plans with multiple sessions.
+- Generates structured study plans with multiple sessions.
 
 3. QnA Agent
 
 Answers conceptual, mathematical, and coding questions using:
 
-SearchTool
+- SearchTool
 
-CalculatorTool
+- CalculatorTool
 
-CodeExecTool
+- CodeExecTool
 
 4. Evaluator Agent
 
-Scores answers using a heuristic scoring model.
+- Scores answers using a heuristic scoring model.
 
 5. Coordinator Agent
 
-Orchestrates the full learning pipeline.
+- Orchestrates the full learning pipeline.
 
 Session Memory
 
 Stores:
 
-Interactions
+- Interactions
 
-Plans
+- Plans
 
-Knowledge
+- Knowledge
 
-Evaluations
+- Evaluations
 
-🔧 Tools
+### 🔧 Tools
 SearchTool
 
-Fast local knowledge base
+- Fast local knowledge base
 
 Optional Wikipedia fallback (3-second timeout)
 
-Always returns results
+- Always returns results
 
 CalculatorTool
 
-Safe arithmetic evaluator
+- Safe arithmetic evaluator
 
-Extracts math expressions from natural language
+- Extracts math expressions from natural language
 
 CodeExecTool
 
-Restricted sandbox execution (safe on Kaggle)
+- Restricted sandbox execution (safe on Kaggle)
 
-📦 Folder / Code Structure
+### 📦 Folder / Code Structure
 
 Inside the Kaggle Notebook:
 
@@ -100,7 +100,7 @@ Cell 10: Build agent system
 Cell 11: Demo  
 Cell 12: Memory summary  
 
-▶️ Usage
+### ▶️ Usage
 
 Example run:
 
@@ -113,17 +113,17 @@ demo
 
 Output includes:
 
-Study plan
+- Study plan
 
-Resource list
+- Resource list
 
-Q&A
+- Q&A
 
-Evaluation
+- Evaluation
 
-Memory summary
+- Memory summary
 
-🏆 Capstone Requirements Satisfied
+###🏆 Capstone Requirements Satisfied
 
 ✔ Multi-Agent System
 
@@ -141,14 +141,14 @@ Memory summary
 
 ✔ No deployment required
 
-📈 Future Enhancements
+### 📈 Future Enhancements
 
-LLM-based evaluator
+- LLM-based evaluator
 
-Quiz generator
+- Quiz generator
 
-Notes summarizer
+- Notes summarizer
 
-Adaptive study plans
+- Adaptive study plans
 
-Vector memory
+- Vector memory
